@@ -1,13 +1,47 @@
 * {
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .title-text {
     font-style: italic;
     font-weight: bold;
+    margin-top: -20px;
+}
+
+.link-bar {
+    width: 1200px;
+    display: flex;
+    padding: 5px;
+    gap: 8px;
+    text-align: center;
 }
 
 .link {
     color: blue;
-    margin: 20px;
+    margin: -5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 1;
+}
+
+.form-selection {
+    width: 1200px;
+    display: flex;
+}
+
+.opr-rater {
+    margin-bottom: 5px;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+    flex: 1;
+}
+
+.bullet input {
+    width: 1000px;
 }

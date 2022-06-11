@@ -10,16 +10,55 @@
 <body>
     <div class="title">
         <h1>TLA helper</h1>
-        <p class="title-text">Three Letter Acronym helper and other exec tools</p>
+        <p class="title-text">Three Letter Acronym helper... and other exec tools!</p>
+    </div>
+    <div class="link-bar">
+        <a class="link" href="https://www.my.af.mil">Portal</a>
+        <a class="link" href="https://myfss.us.af.mil">myFSS</a>
+        <a class="link" href="https://www.e-publishing.af.mil">E-Pubs</a>
+        <a class="link" href="https://static.e-publishing.af.mil/production/1/af_a1/form/af707/af707.pdf">AF707 OPR</a>
+        <a class="link" href="https://static.e-publishing.af.mil/production/1/af_a1/form/daf910/daf910.pdf">DAF910 EPR</a>
+        <a class="link" href="https://static.e-publishing.af.mil/production/1/af_a1/form/af911/af911.pdf">AF911 EPR</a>
+        <a class="link" href="https://static.e-publishing.af.mil/production/1/af_a1/form/af77/af77.pdf">AF77 LOE</a>
+        <a class="link" href="https://static.e-publishing.af.mil/production/1/af_a1/form/af1206/af1206.pdf">AF1206 Award</a>
     </div>
     <div>
-        <a class="link" href="">AF E-Pubs link</a>
-        <a class="link" href="">myFSS link</a>
-        <a class="link" href="">AF Portal link</a>
-        <a class="link" href="">OPR form link</a>
-        <a class="link" href="">EPR form link</a>
-        <a class="link" href="">LOE form link</a>
-        <a class="link" href="">1206 form link</a>
+        <div class="form-selection"> <!--form & option selection-->
+            <button type="button">OPR</button>
+            <button type="button">EPR</button>
+            <button type="button">77</button>
+            <button type="button">1206</button>
+        </div>
+        <div class="bullet"> <!--this is the OPR bullet input box--> 
+
+            <h2 class="opr-rater">Rater - limit 115 characters per line</h2>
+            <form action="">
+                <label for="line1">1</label>
+                <input type="text" id="line1" name="line1"><br>
+                <label for="line2">2</label>
+                <input type="text" id="line2" name="line2"><br>
+                <label for="line3">3</label>
+                <input type="text" id="line3" name="line3"><br>
+                <label for="line4">4</label>
+                <input type="text" id="line4" name="line4"><br>
+                <label for="line1">5</label>
+                <input type="text" id="line5" name="line5"><br>
+                <label for="line1">6</label>
+                <input type="text" id="line6" name="line6"><br>
+            </form>
+
+            <h2 class="opr-rater">Additional Rater - limit 115 characters per line</h2>
+            <form action="">
+                <label for="line1">1</label>
+                <input type="text" id="line1" name="line1"><br>
+                <label for="line2">2</label>
+                <input type="text" id="line2" name="line2"><br>
+                <label for="line3">3</label>
+                <input type="text" id="line3" name="line3"><br>
+                <label for="line4">4</label>
+                <input type="text" id="line4" name="line4"><br>
+            </form>
+        </div>
     </div>
 </body>
 </html>
