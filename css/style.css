@@ -3,16 +3,18 @@
 }
 
 body {
+    font-family: "Open Sans", sans-serif;
     align-items: center;
     justify-content: center;
     color: #1F2122;
     background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
 }
 
 .section {
+    flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .section.header {
@@ -31,17 +33,6 @@ body {
 .content.header {
     height: 25px;
     justify-content: space-between;
-    color: #f1f1f1;
-}
-
-.section.footer {
-    height: 25px;
-    background-color: #1F2122;
-}
-
-.content.footer {
-    text-align: center;
-    font-size: 12px;
     color: #f1f1f1;
 }
 
@@ -74,7 +65,7 @@ a:hover {
 }
 
 .bullets input {
-    width: 950px;
+    width: 945px;
 }
 
 .bullets h3 {
